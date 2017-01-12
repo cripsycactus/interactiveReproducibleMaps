@@ -28,6 +28,9 @@ vignettes/*.pdf
 # Log files
 .log
 
+# Dataset
+countries.geojson
+
 # =========================
 # Operating System Files
 # =========================
