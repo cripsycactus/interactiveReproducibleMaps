@@ -2,6 +2,8 @@
 
 In this project, I develop a web page (HTML) using **R Markdown** that features a map created with **Leaflet**.
 
+View a published version of the created product at https://alkashef.github.io/interactiveReproducibleMaps/
+
 Keywords: `rmarkdown`, `leaflet`, `maps`, `reproducible`, `data products`, `R`
 
 ## Project Files ##
@@ -10,7 +12,7 @@ Keywords: `rmarkdown`, `leaflet`, `maps`, `reproducible`, `data products`, `R`
 
 - **interactiveReproducibleMaps.Rmd:** Reproducible R code embedded in Markdown.
 
-- **[interactiveReproducibleMaps.html](http://htmlpreview.github.io/?http://github.com/alkashef/interactiveReproducibleMaps/blob/master/interactiveReproducibleMaps.html):** Compiled HTML version of the report.
+- **/docs/index.html:** Compiled HTML version of the R Markdown report.
 
 ## Dependencies
 
