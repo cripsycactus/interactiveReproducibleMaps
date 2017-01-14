@@ -22,7 +22,7 @@ suppressPackageStartupMessages(library(rgdal))
 
 The dataset is then downloaded and reads the OGR data source into a Spatial vector object (`countries`).
 
-```{r, warning = FALSE, message = FALSE, results = "hold"}
+```{r, warning = FALSE, message = FALSE, results = "hide"}
 resource <- "https://raw.githubusercontent.com/datasets/geo-boundaries-world-110m/master/countries.geojson"
 download.file(url = resource, destfile = "countries.geojson")
 countries <- readOGR("countries.geojson", "OGRGeoJSON")
